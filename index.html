@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Analytics System</title>
+    <link rel="stylesheet" href="websitecss.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+    <header>
+        <div class="header-container"> <!-- Container to center the content in the header -->
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Player Info</a>
+                        <div class="dropdown-content">
+                            <a href="players.html">Players List</a>
+                            <!-- Other player-related links can be added here -->
+                        </div>
+                    </li>
+                    <!-- Other navigation links can be added here -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Baseball Player Search</h1>
+        <input type="text" id="searchInput" placeholder="Enter player name...">
+        <button onclick="showFakeData()">Search</button>
+        <div id="results">
+            <!-- Results will be displayed here -->
+        </div>
+    </div>
+    <script src="websitejs.js"></script>
+</body>
+</html>
+
+
